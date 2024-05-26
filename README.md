@@ -19,6 +19,10 @@ The dataset consists of 11 CSVs:
 10. `playlist_track_tbl`
 11. `invoice_line_tbl`
 
+## Prerequisites
+1. MySQL Server: Download and install from [mysql.com](https://dev.mysql.com/downloads/mysql/).
+2. Any MySQL client or Code editor that supports MySQL through plugins or extensions. 
+
 ## Setup Instructions
 1. Ensure you have MySQL Server 8.3 or higher installed on your system.
 2. Open MySQL Workbench or any MySQL client tool.

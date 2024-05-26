@@ -28,20 +28,20 @@ The dataset consists of 11 CSVs:
 2. Open MySQL Workbench or any MySQL client tool.
 3. **[Optional]** If you are using VSCode
     * If you are using VSCode with [MySQL by Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.vscode-mysql) extension then create a new user with old authentication type as the extension does't support new authentication type as of now.
-        ```
+        ```bash
         CREATE USER 'user'@'localhost' IDENTIFIED with mysql_native_password by 'password';
         GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
         FLUSH PRIVILEGES;
         ```
     * If you are using VSCode with any other extension that supports new authentication type then you can proceed using new authentication type.
-        ```
+        ```bash
         CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
         GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
         FLUSH PRIVILEGES;
         ```
 5. Download the [dataset](https://www.kaggle.com/datasets/sartazansari/music-store-data) from Kaggle.
 4. Place it in the location specified by your MySQL server's secure file privilege setting. You can find the path by executing
-    ```
+    ```bash
     SHOW VARIABLES LIKE 'secure_file_priv';
     ```
 

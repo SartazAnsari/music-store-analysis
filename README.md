@@ -20,7 +20,7 @@ The dataset consists of 11 CSVs:
 11. `invoice_line_tbl`
 
 ## Prerequisites
-1. MySQL Server: Download and install from [mysql.com](https://dev.mysql.com/downloads/mysql/).
+1. **MySQL Server:** Download and install from [mysql.com](https://dev.mysql.com/downloads/mysql/).
 2. Any MySQL client or Code editor that supports MySQL through plugins or extensions. 
 
 ## Setup Instructions
